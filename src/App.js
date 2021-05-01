@@ -1,7 +1,8 @@
-import React, { Component } from "react";
+import React, { Component, StyleSheet } from "react";
 import Button from "react-bootstrap/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Form from "react-bootstrap/Form";
+
 
 class App extends Component {
   constructor(props) {
@@ -12,10 +13,13 @@ class App extends Component {
       <div className="container-fluid">
         <Jumbotron>
           <h1>Hello, Everyone!</h1>
-          <p>
+          <p className="para">
             Want to search out something. D-OPtimizer is there to help to find
-            all your Doubts
+            all your Doubts.
           </p>
+          <hr></hr>
+          <br></br>
+          <br></br>
           <div className="container">
             <Form>
               <Form.Group controlId="Search">
