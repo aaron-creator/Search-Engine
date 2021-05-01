@@ -14,7 +14,7 @@ class App extends Component {
         <Jumbotron>
           <h1>Hello, Everyone!</h1>
           <p className="para">
-            Want to search out something. D-OPtimizer is there to help to find
+            Want to search out something. D-Optimizer is there to help you to find out 
             all your Doubts.
           </p>
           <hr></hr>
