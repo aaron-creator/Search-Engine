@@ -39,7 +39,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Jumbotron>
+        <Jumbotron >
           <h1>Hello, Everyone!</h1>
           <p className="para">
             Want to search out something. D-Optimizer is there to help you to
