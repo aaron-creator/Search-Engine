@@ -16,7 +16,12 @@ class App extends Component {
           <Home />
         </div>
         <div className="bottom-container">
-        <h1>D-Optimizer</h1>
+        <h1 className="bottom-logo">D-Optimizer</h1>
+        <ul className="bottom-list">
+          <li>Home</li>
+          <li>About</li>
+          <li>Privacy</li>
+        </ul>
         </div>
       </div>
     );
