@@ -10,13 +10,13 @@ class App extends Component {
       
       <div className="container-full">
         <div className="top-container">
-          <p>this is Top.</p>
+          <h1 className="logoName">D-Optimizer</h1>
         </div>
         <div className="middle-container">
           <Home />
         </div>
         <div className="bottom-container">
-        <p>this is bottom.</p>
+        <h1>D-Optimizer</h1>
         </div>
       </div>
     );
