@@ -38,8 +38,8 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
-        <Jumbotron >
+      <div className="SearchBoxHolder">
+        
           <h1>Hello, Everyone!</h1>
           <p className="para">
             Want to search out something. D-Optimizer is there to help you to
@@ -71,7 +71,7 @@ class Home extends Component {
               </div>
             </form>
           </div>
-        </Jumbotron>
+        
       </div>
     );
   }
