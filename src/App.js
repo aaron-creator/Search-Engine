@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       
-      <div className="container-full">
+      <div className="containerholder">
         <div className="top-container">
           <h1 className="logoName">D-Optimizer</h1>
         </div>
@@ -16,12 +16,12 @@ class App extends Component {
           <Home />
         </div>
         <div className="bottom-container">
-        <h1 className="bottom-logo">D-Optimizer</h1>
-        <ul className="bottom-list">
-          <li>Home</li>
-          <li>About</li>
-          <li>Privacy</li>
-        </ul>
+          <div className="bottom-logo1">
+          </div>
+          <hr></hr>
+          <div className="bottom-logo2">
+            <p className="bottomlogoName">Made by Aaron.</p>
+          </div>
         </div>
       </div>
     );

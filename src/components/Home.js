@@ -39,12 +39,14 @@ class Home extends Component {
   render() {
     return (
       <div className="SearchBoxHolder">
-        
-          <h1>Hello, Everyone!</h1>
-          <p className="para">
-            Want to search out something. D-Optimizer is there to help you to
-            find out all your Doubts.
-          </p>
+
+          <div className="headlabelcontainer">
+            <h1 className="headlabel">Hello, Everyone!</h1>
+            <p className="para">
+              Want to search out something. D-Optimizer is there to help you to
+              find out all your Doubts.
+            </p>
+          </div>
           <hr></hr>
           <br></br>
           <br></br>
