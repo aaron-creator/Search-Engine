@@ -1,5 +1,4 @@
 import React, { Component, StyleSheet } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home";
 class App extends Component {
   constructor(props) {
@@ -10,7 +9,7 @@ class App extends Component {
       
       <div className="containerholder">
         <div className="top-container">
-          <h1 className="logoName">D-Optimizer</h1>
+          <h1 className="logoName">Search the Web</h1>
         </div>
         <div className="middle-container">
           <Home />
